@@ -42,7 +42,6 @@ while True:
         centersGray.append(gray[y,x])
     sets = set(centersGray)
     index = None
-    #print(centers,sets)
     for s in sets:
         if centersGray.count(s) == 1:
             index = centersGray.index(s)
